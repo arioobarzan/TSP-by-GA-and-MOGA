@@ -1,6 +1,6 @@
 function [ itr, time, best ] = BGA( X , popSize , itrNum , q , beta , delta ,solution, selectionMode , mutationMode)
 time = cputime;
-best = inf;
+best = inf; 
 %% parametrs
 m=size(X,1); %number of cities
 n=3*popSize; %pop size
